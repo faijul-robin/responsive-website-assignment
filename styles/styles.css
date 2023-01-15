@@ -1,0 +1,82 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* --------------
+header style 
+----------------*/
+/* .title-nav{
+    display: flex;
+    flex-direction: row;
+
+} */
+/* banner style */
+.title {
+    text-align: center;
+}
+
+.button button {
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    margin-left: 700px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.banner img {
+    width: 1440px;
+    height: 700px;
+    padding-left: 40px;
+}
+
+/* --------------
+feature section
+----------------- */
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.quick-list {
+    padding-left: 70px;
+}
+
+.feature-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.feature-image img {
+    width: 342px;
+    height: 342px;
+    border-radius: 10px;
+}
+
+.button-explore {
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+}
+.grey{
+    color: #727272;
+}
+.bold{
+    font-weight: 700;
+}
+.yellow{
+    color: #FF900E;
+}
+.quick-list-intro{
+    width: 520px;
+    height: 75px;
+}
