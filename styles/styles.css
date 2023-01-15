@@ -20,7 +20,7 @@ header style
     border-radius: 5px;
     color: #FFFFFF;
     background-color: #FF900E;
-    margin-left: 700px;
+    margin-left: 550px;
     border: none;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -28,9 +28,9 @@ header style
 }
 
 .banner img {
-    width: 1440px;
+    width: 1000px;
     height: 700px;
-    padding-left: 40px;
+    padding-left: 150px;
 }
 
 /* --------------
@@ -55,9 +55,8 @@ feature section
 }
 
 .feature-image img {
-    width: 342px;
-    height: 342px;
-    border-radius: 10px;
+    width: 242px;
+    height: 242px;
 }
 
 .button-explore {
@@ -67,16 +66,91 @@ feature section
     color: #FFFFFF;
     background-color: #FF900E;
 }
-.grey{
+
+.grey {
     color: #727272;
 }
-.bold{
+
+.bold {
     font-weight: 700;
 }
-.yellow{
+
+.yellow {
     color: #FF900E;
 }
-.quick-list-intro{
+
+.quick-list-intro {
     width: 520px;
     height: 75px;
+}
+
+/* -----------
+   feature article style
+   ------------------ */
+.feature-article {
+    border-radius: 5px;
+    width: 550px;
+    height: 980px;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.first-feature {
+    width: 550px;
+    height: 170px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.experience-box {
+    width: 800px;
+    height: 1060px;
+    border: 1px solid goldenrod;
+}
+
+/* .feature-image{
+    width: 600px;
+    height: 1000px;
+    border: 1px solid lawngreen;
+    position: relative;
+} */
+.feature-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* facts style */
+.facts-title {
+    width: 500px;
+    height: 52px;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+.award .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 240px;
+    margin-top: 100px;
+    margin-left: 60px;
+
+
+
+}
+
+.box-inside {
+    width: 170px;
+    height: 135px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    padding: 35px;
 }
