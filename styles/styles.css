@@ -129,7 +129,8 @@ feature section
     padding-left: 100px;
     padding-top: 200px;
 }
-.award .box{
+
+.award .box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 50px;
@@ -154,20 +155,43 @@ feature section
     text-align: center;
     padding: 35px;
 }
+
 /* our sponsor style----------------------- */
-.sponsor-title{
+.sponsor-title {
     width: 550px;
     height: 130px;
     margin-left: 30%;
     text-align: center;
 }
-.sponsor-name{
+
+.sponsor-name {
     display: flex;
     gap: 60px;
     justify-content: center;
 }
-.sponsor-name img{
+
+.sponsor-name img {
     width: 100px;
     height: 50px;
-    
+
+}
+
+/* copyright ---------------------*/
+.copyright{
+    width: 1000px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10%;
+    background-color: #FFF4E7;
+    text-align: center;
+
+}
+
+.copyright-text {
+    padding: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
 }
